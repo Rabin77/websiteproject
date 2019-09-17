@@ -1,0 +1,124 @@
+body{
+background-image: url(d .jpg);
+}
+.booking-from-box{
+   max-width: 350px;
+    border: 1px solid #CED4DA;
+    margin: 10% auto 0;
+}
+ *{
+      font-family: 'Josefin Sans', sans-serif;
+  }
+
+.radio-btn{
+    margin: 0 20px;
+    
+}
+.radio-btn .btn
+{
+    margin: 2px 1 px 0 px 0;
+
+}
+.radio-btn .btn:after
+{
+ 
+    height: 15px;
+    width: 15px;
+    top: 2px;
+    left: 1px;
+  
+    position: relative;
+    display: inline-block;
+    border: 3px solid #fff;
+    visibility: visible;
+    border-radius: 50%;
+    
+}
+.radio-btn .btn:checked::after
+{
+    content: ;
+    background: #000;
+    transition: 0,5s;
+}
+#o{
+    font-size: 20px;
+    color: black;
+    font: bold;
+}
+.radio-btn spam{
+    color: #fff;
+    margin: 5px;
+    font-size:12px;
+}
+.booking-form{
+    padding: 0 20px 20px;
+    
+}
+.booking-form label
+{
+    margin-bottom: 5px;
+    margin-top: 10PX;
+    font-size: 20PX;
+    color: black;
+}
+input::placeholder
+{
+    color: black !important;
+}
+.input-grp{
+    font-size: 20px;
+    
+    display: inline-block;
+}
+
+.form-control{
+    font-size: 15px;
+    border-radius: 0;
+    color: black;
+    background: transparent;
+    box-shadow: none;
+}
+
+/* menu var css */
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
